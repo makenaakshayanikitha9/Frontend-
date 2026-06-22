@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header{
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav{
+    background: #2563eb;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+/* Main Content */
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+
+section{
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color: #1e3a8a;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+}
+
+/* Articles */
+article{
+    background: #f8fafc;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+}
+
+/* Pending Courses List */
+ul{
+    margin-left: 25px;
+}
+
+li{
+    margin: 10px 0;
+}
+
+/* Aside */
+aside{
+    width: 80%;
+    margin: 20px auto;
+    background: #fff3cd;
+    padding: 20px;
+    border-left: 6px solid #ffc107;
+    border-radius: 10px;
+}
+
+aside h2{
+    margin-bottom: 10px;
+    color: #856404;
+}
+
+/* Footer */
+footer{
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
